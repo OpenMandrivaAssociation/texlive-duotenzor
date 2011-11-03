@@ -1,3 +1,9 @@
+# revision 18728
+# category Package
+# catalog-ctan /graphics/duotenzor
+# catalog-date 2010-06-06 13:50:32 +0200
+# catalog-license lppl1.3
+# catalog-version 1.00
 Name:		texlive-duotenzor
 Version:	1.00
 Release:	1
@@ -40,6 +46,7 @@ calling on TikZ for support.
 %doc %{_texmfdistdir}/doc/latex/duotenzor/README
 %doc %{_texmfdistdir}/doc/latex/duotenzor/duotenzormanual.pdf
 %doc %{_texmfdistdir}/doc/latex/duotenzor/duotenzormanual.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ calling on TikZ for support.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
