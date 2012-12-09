@@ -47,3 +47,17 @@ calling on TikZ for support.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.00-2
++ Revision: 751132
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.00-1
++ Revision: 718272
+- texlive-duotenzor
+- texlive-duotenzor
+- texlive-duotenzor
+- texlive-duotenzor
+
