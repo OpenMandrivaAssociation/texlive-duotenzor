@@ -1,6 +1,6 @@
 Name:		texlive-duotenzor
 Version:	18728
-Release:	1
+Release:	2
 Summary:	Drawing package for circuit and duotensor diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/duotenzor
