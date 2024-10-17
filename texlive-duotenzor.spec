@@ -3,7 +3,7 @@ Version:	18728
 Release:	2
 Summary:	Drawing package for circuit and duotensor diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/duotenzor
+URL:		https://www.ctan.org/tex-archive/graphics/duotenzor
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/duotenzor.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/duotenzor.doc.r%{version}.tar.xz
